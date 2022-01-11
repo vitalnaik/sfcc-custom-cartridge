@@ -1,0 +1,14 @@
+<isdecorate template="training/page1">
+
+   
+
+    <isslot
+        id="myslot"
+        context="category"
+        description="This is My Custom Slot"
+        context-object="${pdict.category}"
+    />
+
+    
+
+</isdecorate>

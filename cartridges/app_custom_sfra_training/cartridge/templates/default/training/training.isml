@@ -1,0 +1,20 @@
+<isdecorate template="common/layout/page">
+<iscomment> 
+	<isloop items="${pdict.List}" var="product"> 
+		<h1>${product.getID()}</h1>
+		<h1>${product.getName()}</h1>
+		<h1>${product.isOnline()}</h1>
+		<h1>${product.getUnit()}</h1>
+		 <h1>______________________________________________________________________________ </h1>	 
+	</isloop> 
+</iscomment>
+
+     <!--Creating cookie  -->
+     <h1>Cookie Created</h1>
+<iscookie name="P2595" value="Sabavat Vittal Naik" />
+
+<iscomment> 
+     <!--Redirecting to controller using iscomponent  -->
+<iscomponent pipeline="Training-Test" />
+</iscomment>
+</isdecorate>        

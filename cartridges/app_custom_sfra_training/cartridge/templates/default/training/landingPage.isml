@@ -1,0 +1,8 @@
+
+<isloop items="${pdict.List}" var="item"> 
+<h1> ${item.name} </h1> 
+<h3> ${item.getID()} </h1> 
+<h3> ${item.isOnline()} </h1> 
+
+<h1>_______________________________________</h1> 
+</isloop>

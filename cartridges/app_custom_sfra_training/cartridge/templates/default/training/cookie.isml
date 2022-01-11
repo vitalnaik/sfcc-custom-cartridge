@@ -1,0 +1,4 @@
+
+		<isredirect location = "${pdict.Cookie}" permanent="false" />
+	
+ 
